@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Central PRO++ Roleta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎯 Central PRO++ – Leitura de Mesa</h1>
+
+<div class="entrada">
+  <input id="num" type="number" min="0" max="36" placeholder="Número">
+  <button onclick="add()">Adicionar</button>
+</div>
+
+<div class="painel">
+  <div><strong>Estado:</strong> <span id="estado">—</span></div>
+  <div><strong>Sinal:</strong> <span id="sinal">—</span></div>
+  <div><strong>Alvos:</strong> <span id="alvos">—</span></div>
+</div>
+
+<div class="secao">
+  <h3>📊 Histórico (recente → antigo)</h3>
+  <div id="hist"></div>
+</div>
+
+<div class="secao">
+  <h3>🧠 Diagnóstico da Mesa</h3>
+  <div id="diagnostico"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #00ffaa;
+}
+
+.entrada input {
+  padding: 10px;
+  font-size: 18px;
+  width: 120px;
+}
+
+.entrada button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.painel {
+  margin-top: 20px;
+  background: #151515;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#sinal.entrar {
+  color: #00ff00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#sinal.aguardar {
+  color: #ff4444;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.secao {
+  margin-top: 20px;
+  background: #111;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#hist {
+  word-wrap: break-word;
+}
